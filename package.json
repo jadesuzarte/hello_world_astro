@@ -1,0 +1,21 @@
+{
+  "name": "@example/blog",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "node ./dist/server/entry.mjs",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^5.1.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@astrojs/renderer-preact": "^0.5.0",
+    "astro": "^2.2.0"
+  }
+}
